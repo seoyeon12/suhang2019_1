@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    min-width: 1200px;
+    font-family: 'Poor Story', cursive;
+}
+a:link { 
+    color: black; 
+    text-decoration: none;
+}
+a:visited { 
+    color: black; 
+    text-decoration: none;
+}
+a:hover { 
+    font-weight: bold;
+    text-decoration: none;
+}
+#time{
+    font-size: 20px;
+}
+.jbMenu {
+    text-align: center;
+    min-width: 1200px;
+    background-color: #ffc62871;
+    padding: 0px;
+    width: 100%;
+    z-index: 3;
+}
+.jbTitle {
+    text-align: center;
+    background-color: #ffffffef;
+    padding-top: 15px; 
+}
+#time{
+    background-color: #ffffffef;
+}
+.jbContent {
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+    margin: 0;
+}
+.jbFixed {
+    position: fixed;
+    top: 0px;
+    padding-bottom:0; 
+}
+#menu{
+    list-style: none;
+    padding: 15px 0;
+}
+#menu li{
+    display: inline;
+    border-left: 1px solid black;
+    padding: 0px 8%;
+    text-decoration: none;
+    font-size: 20px;
+}
+#menu li:first-child{
+    border-left: none;
+}
+.mainAB{
+    position: relative;
+    width: 100%;
+}
+#ma{
+    width: 100%;
+    max-height: 700px;
+    overflow: hidden;
+}
+#logo{
+    width: 100px;
+}
+#disnep{
+    width: 100%;
+}
+.mainAB button{
+    width: 25%;
+    position: absolute;
+    left: 36%;
+    top: 20%;
+
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid #ffffff;
+    color: #ffc628;
+    font-size: 20px;
+    font-weight: bold;
+    margin:auto;
+    padding: 10px 5px;
+    box-shadow: 2px 2px 2px 0px rgb(37, 36, 36);
+}
+.mainAB button:hover{
+    opacity: 1;
+    color:darkgreen;
+    border-color: rgb(9, 80, 6); 
+}
+.movies{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.infoMo
+{
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    margin: 120px 80px 50px 50px; 
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 0px rgb(37, 36, 36);
+    position: relative;
+}
+.Img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.Img img{
+    width: 280px;
+    height: 400px;
+}
+.Img:hover{
+    opacity: 0.7;
+}
+.Mti{
+    margin-top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.moreMov{
+    width: 100%;
+    margin: 80px 0 10px 0;
+    padding-bottom: 200px;
+    border-bottom: 2px dotted black;
+}
+
+.moreMov button{
+    background:#ffc628;
+    color:#fff;
+    border:none;
+    position:relative;
+    width: 25%;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+.moreMov button:hover{
+    background:#fff;
+    color:#ffc628;
+}
+.moreMov button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #ffc628;
+    transition:400ms ease all;
+}
+.moreMov button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.moreMov button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+.news{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+#note{
+    width: 100%;
+    max-height: 1000px;
+}
+#sc{
+    width: 45%;
+    position: absolute;
+    top: 15%;
+    left: auto;
+    right: 20%;
+}
+.foot{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(81, 79, 77, 0.9);;
+    position: absolute;
+    bottom: 8px;
+    line-height: 45px;
+}
+.foot p{
+    color: #ffffff94;
+    font-size: 17px;
+}
